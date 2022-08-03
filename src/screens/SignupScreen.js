@@ -11,4 +11,4 @@ const SignupScreen = () => {
 
 const styles = StyleSheet.create({})
 
-export default AccountScreen
+export default SignupScreen
