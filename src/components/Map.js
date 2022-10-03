@@ -8,13 +8,13 @@ const Map = () => {
   for (let i = 0; i < 20; i++) {
     if (i % 2 === 0) {
     points.push({
-        latitude: 37.78914 + i * 0.001,
-        longitude: -122.43756 + i * 0.001
+        latitude: 37.78885 + i * 0.001,
+        longitude: -122.43740 + i * 0.001
     })
     } else {
         points.push({
-            latitude: 37.78914 - i * 0.002,
-            longitude: -122.43756 - i * 0.001
+            latitude: 37.78885 - i * 0.002,
+            longitude: -122.43740 - i * 0.001
         })        
     }
   }
