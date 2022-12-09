@@ -8,7 +8,7 @@ const Map = () => {
   const { state: { currentLocation, locations } } = useContext(LocationContext)
 
   if (!currentLocation){
-    return <ActivityIndicator size='large' color='#0000ff' sytle={{ marginTop: 200 }} />
+    return <ActivityIndicator size='large' sytle={{ marginTop: 200 }} />
   }
 
   return <MapView 
@@ -21,7 +21,7 @@ const Map = () => {
     >
         <Circle 
             center={currentLocation.coords}
-            radius={30}
+            radius={40}
             strokeColor='rgba(158, 158, 255, 1.0)'
             fillColor='rgba(158, 158, 255, 0.3)'
         />
