@@ -8,7 +8,7 @@ const Map = () => {
   const { state: { currentLocation, locations } } = useContext(LocationContext)
 
   if (!currentLocation){
-    return <ActivityIndicator size='large' sytle={{ marginTop: 200 }} />
+    return <ActivityIndicator size='large' color='#0000ff' sytle={{ marginTop: 200 }} />
   }
 
   return <MapView 
