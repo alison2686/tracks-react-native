@@ -24,7 +24,8 @@ export default (shouldTrack, callback) => {
             setErr(e)
           }
       }
-        if (shouldTrack) {
+
+      if (shouldTrack) {
         startWatching()
     } else {
       if (subscriber){

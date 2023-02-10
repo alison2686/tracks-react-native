@@ -7,13 +7,8 @@ import { Context as LocationContext } from '../context/LocationContext'
 const Map = () => {
   const { state: { currentLocation, locations } } = useContext(LocationContext)
 
-  if (!currentLocation){
+  if (!currentLocation) {
     return <ActivityIndicator size='large' sytle={{ marginTop: 200 }} />
-  }
-
-  initialLocation = {
-    longitude: -122.43756,
-    latitude: 37.78913,
   }
 
   return <MapView 
